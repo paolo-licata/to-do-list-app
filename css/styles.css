@@ -71,3 +71,14 @@ li>crossOutButton {
     color: #025f70;
     font-weight: 800;
 }
+
+@media all and (min-width: 300px) and (max-width:600px) {
+    .container {
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 60px;
+        background: white;
+        border-radius: 10px;
+    }
+}
