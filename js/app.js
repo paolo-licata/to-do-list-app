@@ -35,6 +35,14 @@ function newItem() {
 
 }
 
+$('#input').on('keydown', function (event) {
+
+    if (event.key === 'Enter' || event.code === 'Enter') {
+        event.preventDefault();
+        newItem();
+    }
+});
+
 
 
 
